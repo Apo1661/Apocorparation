@@ -1,0 +1,95 @@
+p strong{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 33px;
+
+color: #000000;
+
+}
+
+.login{
+    margin-left: 191px;
+    top: 90px;
+}
+
+.account{
+    margin-left: 191px;
+    top: 58px;
+}
+.password{
+    margin-left: 218px;
+    top: 58px;
+}
+.password_2{
+    margin-left: 218px;
+    top: 58px;
+}
+
+.logininput{
+    width: 505px;
+height: 58px;
+
+background: #FFFFFF;
+border-radius: 12px;
+margin-left: 72px;
+border: #000000 solid 2px;
+}
+
+.accountinput{
+    width: 505px;
+    height: 58px;
+    
+    background: #FFFFFF;
+    border-radius: 12px;
+    margin-left: 72px;
+    border: #000000 solid 2px;
+}
+
+.passwordinput{
+    width: 505px;
+    height: 58px;
+    
+    background: #FFFFFF;
+    border-radius: 12px;
+    margin-left: 72px;
+    border: #000000 solid 2px;
+}
+
+.password_2input{
+    width: 505px;
+    height: 58px;
+    
+    background: #FFFFFF;
+    border-radius: 12px;
+    margin-left: 72px;
+    border: #000000 solid 2px;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(116.75deg, rgba(0, 26, 255, 0.42) 0%, rgba(250, 0, 255, 0.42) 100%);
+}
+
+.signup{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 43.2727px;
+line-height: 51px;
+color: #000000;
+position: absolute;
+background: #FFBC57;
+width: 523.42px;
+height: 100px;
+border-radius: 195.495px;
+margin-left: 800px;
+top: 154px;
+border: #000000 solid 2px;
+}
+
+.error{
+    margin-left: 500px;
+}

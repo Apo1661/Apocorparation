@@ -8,13 +8,13 @@
 </head>
 <body>
       <header>
-    <div class="sign">
+    <div class="sign"> 
         <span class="fast-flicker">Apo</span>
       </div>
-    <a href="" class="register">REGISTER</a>
-    <a href="" class="document">DOCUMENT</a>
-    <a href="" class="signin">SIGN IN</a>
-    <a href="" class="contact">CONTACT US</a>
+    <a href="signup.php" class="register">REGISTER</a>
+    <a href="document.html" class="document">DOCUMENT</a>
+    <a href="signup.php" class="signin">SIGN IN</a>
+    <a href="https://t.me/Abdullokh_apo" class="contact">CONTACT US</a>
     <a href="" class="home">HOME</a>
 </header>
       <main>
@@ -35,6 +35,10 @@
     <script src="js/script.js" defer></script>
 
 
+    <?php
+	require "db.php";
+?>
+
 
 
 
@@ -44,11 +48,13 @@
 
 
     <p class="APO">APO corparation</p>
-    <a href="#" class="registration">
+    
         
-        Registration
+    <a href="/signup.php" class="registration">Registration</a>
 
-        
+    <?php
+
+    ?>
 
 
 
